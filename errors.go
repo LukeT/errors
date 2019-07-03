@@ -152,6 +152,18 @@ func WithStack(err error) error {
 	}
 }
 
+// WithStackFrom is the same as WithStack, but supports a custom
+// skip depth. A skip of 0 will return you, while 1 will return the caller.
+func WithStackFrom(err error, skip int) error {
+	if err == nil {
+		return nil
+	}
+	return &withStack{
+		err,
+		callersFrom(1 + skip),
+	}
+}
+
 type withStack struct {
 	error
 	*stack
