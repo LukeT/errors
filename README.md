@@ -1,4 +1,5 @@
 # errors [![Travis-CI](https://travis-ci.org/pkg/errors.svg)](https://travis-ci.org/pkg/errors) [![AppVeyor](https://ci.appveyor.com/api/projects/status/b98mptawhudj53ep/branch/master?svg=true)](https://ci.appveyor.com/project/davecheney/errors/branch/master) [![GoDoc](https://godoc.org/github.com/pkg/errors?status.svg)](http://godoc.org/github.com/pkg/errors) [![Report card](https://goreportcard.com/badge/github.com/pkg/errors)](https://goreportcard.com/report/github.com/pkg/errors) [![Sourcegraph](https://sourcegraph.com/github.com/pkg/errors/-/badge.svg)](https://sourcegraph.com/github.com/pkg/errors?badge)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStreamJar%2Fgo-errors.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FStreamJar%2Fgo-errors?ref=badge_shield)
 
 Package errors provides simple error handling primitives.
 
@@ -57,3 +58,6 @@ Before sending a PR, please discuss your change by raising an issue.
 ## License
 
 BSD-2-Clause
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStreamJar%2Fgo-errors.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FStreamJar%2Fgo-errors?ref=badge_large)
